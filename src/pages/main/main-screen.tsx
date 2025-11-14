@@ -118,6 +118,7 @@ export function MainScreen({placesCount, placeCards}: MainScreenProps): JSX.Elem
                     }
                     : undefined
                 }
+                className='cities__map map'
               />
             </div>
           </div>
