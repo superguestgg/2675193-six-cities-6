@@ -12,7 +12,7 @@ export function LoginScreen(): JSX.Element {
 
   useEffect(() => {
     if (authorizationStatus === AuthorizationStatus.Auth) {
-      navigate('/');
+      navigate(AppRoute.Root);
     }
   }, [authorizationStatus, navigate]);
 
